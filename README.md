@@ -11,3 +11,9 @@ This extension includes the following functions:
 - extractHost: new GREL function that extracts a host name from a URL
 - inArray: new GREL function that checks for the existence of a value in an array
 - randomNumber: new GREL function that generates a random integer in a specified range
+
+## Contributors (alphabetical order):
+
+- [Ian Ibbotson](https://github.com/ianibbo)
+- [Steve Osguthorpe](https://github.com/sosguthorpe)
+- [Owen Stephens](https://github.com/ostephens)
