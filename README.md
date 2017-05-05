@@ -1,63 +1,13 @@
-#OpenRefine
+The GOKb Utilities extension for OpenRefine adds a number of new functions to the (OpenRefine)[http://openrefine.org] data cleaning software.
 
-[![Build Status](https://travis-ci.org/OpenRefine/OpenRefine.png?branch=master)](https://travis-ci.org/OpenRefine/OpenRefine) [![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=32795)](https://www.bountysource.com/trackers/32795-open-refine?utm_source=32795&utm_medium=shield&utm_campaign=TRACKER_BADGE)
+The utilities in this extension were originally developed as part of the (Global Open Knowledgebase (GOKb) project)[https://gokb.openlibraryfoundation.org/gokb/]. The GOKb project developed software and a service to facilitate a community managed set of freely available information about electronic resources (such as electronic journals and books). OpenRefine is a key part of the data management process within GOKb and OpenRefine was highly integrated into the GOKb application and database through the development of an (OpenRefine extension)[https://github.com/k-int/gokb-phase1/tree/dev-integration/refine/extensions/gokb]. However a few of the utilities developed did not rely on the integration with GOKb - and they have now been separated from the main extension and bundled together here.
 
-OpenRefine is a power tool that allows you to load data, understand it,
-clean it up, reconcile it, and augment it with data coming from
-the web. All with the comfort and privacy of your own computer.
+This extension does not rely on GOKb at all and can be used directly with OpenRefine like any OpenRefine extension.
 
-Download
------------------------
-* [Latest Beta 2.7 rc1 - Recommended](https://github.com/OpenRefine/OpenRefine/releases)
-* [Latest Stable 2.5](https://github.com/OpenRefine/OpenRefine/releases/latest)
+This extension includes the following functions:
 
-Documentation and Videos
--------------------------
-* [Documentation Wiki](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Users)
-* [FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ)
-* [Official Website and tutorial videos](http://openrefine.org)
-
-Contributing to the project
----------------------------
-* [Donate $](https://www.bountysource.com/teams/openrefine/issues)
-* [Developers Guide & Architecture](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers)
-
-Contact us
-----------
-* [Mailing List](https://groups.google.com/forum/#!forum/openrefine)
-* [Twitter](http://www.twitter.com/openrefine)
-
-Licensing and legal issues
---------------------------
-OpenRefine is open source software and is licensed under the BSD license
-located in the [LICENSE.txt](LICENSE.txt). See that file also for information on open source
-libraries that OpenRefine depends on.
-
-Credits
--------
-This software was created by Metaweb Technologies, Inc. and originally written
-and conceived by David Huynh <dfhuynh@google.com>. Metaweb Technologies, Inc.
-was acquired by Google, Inc. in July 2010 and the product was renamed Google Refine.
-In October 2012, it was renamed OpenRefine as it transitioned to a 
-community-supported product.
-
-This is the full list of contributors (in chronological order):
-
- - David Huynh <dfhuynh@google.com>
- - Stefano Mazzocchi <stefanom@google.com>
- - Vishal Talwar <vtalwar@google.com> 
- - Jeff Fry <jfry@google.com>
- - Will Moffat <wdm@google.com>
- - James Home <jameshome@google.com>
- - Iain Sproat <iainsproat@gmail.com>
- - Tom Morris <tfmorris@gmail.com>
- - Heather Campbell <campbellh@google.com>
- - Thad Guidry <thadguidry@gmail.com>
- - Paul Makepeace <paulm@paulm.com>
- - Tomaž Šolc <tomaz.solc@zemanta.com>
- - Gabriel Sjoberg <GabrielSjoberg@gmail.com>
- - Rod Salazar <rodrod.salazar@gmail.com>
- - pxb <pxb1988@gmail.com>
- - Qi <jackyq2015@gmail.com>
- - Antonin Delpeuch <antonin@delpeuch.eu>
-
+- Prepend rows: Add new blank rows to an existing OpenRefine project. Accessed via the 'All' dropdown menu "All->Edit Rows->Prepend rows"
+- Trim all data: Remove preceding/trailing whitespace from across all cells in the project. Accessed via the 'All' dropdown menu "All->Trim all data"
+- extractHost: new GREL function that extracts a host name from a URL
+- inArray: new GREL function that checks for the existence of a value in an array
+- randomNumber: new GREL function that generates a random integer in a specified range
