@@ -17,3 +17,16 @@ This extension includes the following functions:
 - [Ian Ibbotson](https://github.com/ianibbo)
 - [Steve Osguthorpe](https://github.com/sosguthorpe)
 - [Owen Stephens](https://github.com/ostephens)
+
+## Acknowledgements
+The GOKb project, without which this extension would not exist, was funded by the Andrew W. Mellon Foundation. GOKb was initially designed and implemented by the Kuali OLE Founding partners: 
+- North Carolina State University (lead school)
+- Indiana University
+- University of Florida
+- Lehigh University
+- Duke University
+- University of Chicago
+- University of Maryland
+- University of Michigan
+- University of Pennsylvania
+- Jisc of the United Kingdom
